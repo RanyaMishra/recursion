@@ -1,0 +1,6 @@
+def Max(Arr, n):
+ 
+   
+    if (n == 1):
+        return Arr[0]
+    return max(Arr[n - 1], Max(Arr, n - 1))
